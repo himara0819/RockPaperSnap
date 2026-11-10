@@ -25,14 +25,16 @@
     },
     "plugins": [
       "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "backgroundColor": "#208AEF",
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
-        }
-      ]
+      
+[
+  "expo-splash-screen",
+  {
+    "backgroundColor": "#FFFFFF",
+    "image": "./assets/images/appIcon.jpg",
+    "imageWidth": 200
+  }
+]
+
     ],
     "experiments": {
       "typedRoutes": true,
